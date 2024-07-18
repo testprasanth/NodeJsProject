@@ -1,0 +1,386 @@
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-05-27T07:13:03.728Z"}
+{"level":"info","message":"updateEmployee: Employee with empid 1 updated successfully","service":"employee-service","timestamp":"2024-05-27T08:26:44.045Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-05-27T08:26:56.793Z"}
+{"employee":{"domain":"PHP","emp_id":3,"emp_name":"rajesh","position":"Durpal Developer"},"level":"info","message":"Employee created successfully","service":"employee-service","timestamp":"2024-05-27T08:29:31.067Z"}
+{"employee":{"domain":"PHP","emp_id":4,"emp_name":"suresh","position":"Durpal Developer"},"level":"info","message":"Employee created successfully","service":"employee-service","timestamp":"2024-05-27T08:31:20.375Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-05-27T08:32:08.558Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-05-27T08:38:52.133Z"}
+{"error":{},"level":"error","message":"Error creating Employee:","service":"employee-service","timestamp":"2024-05-27T08:40:20.741Z"}
+{"employee":{"domain":"React js","emp_id":5,"emp_name":"sannith","password":"1234","position":"Frontend Developer"},"level":"info","message":"Employee created successfully","service":"employee-service","timestamp":"2024-05-27T08:41:03.087Z"}
+{"error":{"name":"SequelizeDatabaseError","original":{"code":"ER_DATA_TOO_LONG","errno":1406,"parameters":["sannith","Frontend Developer","React js","$2b$10$MIPrHgsEmxUK8k5k8EBqFulkIidoOyHpCNaYaRn7cm58LbYgfDxAe"],"sql":"INSERT INTO `employee_table` (`emp_id`,`emp_name`,`position`,`domain`,`password`) VALUES (DEFAULT,?,?,?,?);","sqlMessage":"Data too long for column 'password' at row 1","sqlState":"22001"},"parameters":["sannith","Frontend Developer","React js","$2b$10$MIPrHgsEmxUK8k5k8EBqFulkIidoOyHpCNaYaRn7cm58LbYgfDxAe"],"parent":{"code":"ER_DATA_TOO_LONG","errno":1406,"parameters":["sannith","Frontend Developer","React js","$2b$10$MIPrHgsEmxUK8k5k8EBqFulkIidoOyHpCNaYaRn7cm58LbYgfDxAe"],"sql":"INSERT INTO `employee_table` (`emp_id`,`emp_name`,`position`,`domain`,`password`) VALUES (DEFAULT,?,?,?,?);","sqlMessage":"Data too long for column 'password' at row 1","sqlState":"22001"},"sql":"INSERT INTO `employee_table` (`emp_id`,`emp_name`,`position`,`domain`,`password`) VALUES (DEFAULT,?,?,?,?);"},"level":"error","message":"Error creating Employee:","service":"employee-service","timestamp":"2024-05-27T10:31:02.303Z"}
+{"employee":{"domain":"React js","emp_id":6,"emp_name":"sannith","password":"$2b$10$NDIXB7h6vtAdqkJbUoCLsO0tRcqBqp9ljwAGGnaA.sfVpqmVeACH.","position":"Frontend Developer"},"level":"info","message":"Employee created successfully","service":"employee-service","timestamp":"2024-05-27T10:33:57.332Z"}
+{"level":"info","message":"updateEmployee: Employee with emp_id 1 updated successfully","service":"employee-service","timestamp":"2024-05-27T10:35:02.571Z"}
+{"emp_name":"sannith","level":"error","message":"Invalid password","service":"employee-service","timestamp":"2024-05-27T10:38:13.480Z"}
+{"emp_name":"sannith","level":"error","message":"Invalid password","service":"employee-service","timestamp":"2024-05-27T10:38:33.101Z"}
+{"emp_name":"sannith","level":"error","message":"Invalid password","service":"employee-service","timestamp":"2024-05-27T10:38:35.126Z"}
+{"emp_name":"raju","level":"error","message":"Invalid password","service":"employee-service","timestamp":"2024-05-27T11:27:37.162Z"}
+{"emp_name":"sannith","level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-05-27T11:28:28.399Z"}
+{"error":{},"level":"error","message":"Error during login","service":"employee-service","timestamp":"2024-05-27T11:28:28.401Z"}
+{"emp_name":"sannith","level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-05-27T11:35:37.990Z"}
+{"error":"secretOrPrivateKey must have a value","level":"error","message":"Error during login","service":"employee-service","timestamp":"2024-05-27T11:35:38.004Z"}
+{"emp_name":"sannith","level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-05-27T11:35:41.180Z"}
+{"error":"secretOrPrivateKey must have a value","level":"error","message":"Error during login","service":"employee-service","timestamp":"2024-05-27T11:35:41.184Z"}
+{"emp_name":"sannith","level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-05-27T11:41:20.870Z"}
+{"level":"error","message":"JWT secret key is missing","service":"employee-service","timestamp":"2024-05-27T11:41:20.878Z"}
+{"emp_name":"sannith","level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-05-27T11:42:10.363Z"}
+{"error":"secretOrPrivateKey must have a value","level":"error","message":"Error during login","service":"employee-service","timestamp":"2024-05-27T11:42:10.375Z"}
+{"level":"error","message":"Invalid password","service":"employee-service","timestamp":"2024-05-27T11:46:00.924Z"}
+{"level":"error","message":"Invalid password","service":"employee-service","timestamp":"2024-05-27T11:46:18.695Z"}
+{"level":"error","message":"Invalid password","service":"employee-service","timestamp":"2024-05-27T11:46:25.137Z"}
+{"level":"error","message":"Invalid password","service":"employee-service","timestamp":"2024-05-27T11:46:26.194Z"}
+{"employee":{"domain":"React js","emp_id":7,"emp_name":"praveen","password":"$2b$10$JAO9dWnfcDB1S67jcJCua.aE53.1BRuMKOjQXDC9ealFSnhKgJF7C","position":"Frontend Developer"},"level":"info","message":"Employee created successfully","service":"employee-service","timestamp":"2024-05-27T11:47:12.318Z"}
+{"level":"error","message":"Invalid password","service":"employee-service","timestamp":"2024-05-27T11:47:37.404Z"}
+{"level":"error","message":"Invalid password","service":"employee-service","timestamp":"2024-05-27T11:49:22.972Z"}
+{"level":"error","message":"Invalid password","service":"employee-service","timestamp":"2024-05-27T11:50:11.690Z"}
+{"level":"error","message":"Invalid password","service":"employee-service","timestamp":"2024-05-27T11:51:04.971Z"}
+{"level":"error","message":"Invalid password","service":"employee-service","timestamp":"2024-05-27T11:51:56.198Z"}
+{"level":"error","message":"Invalid password","service":"employee-service","timestamp":"2024-05-27T11:55:44.200Z"}
+{"error":{},"level":"error","message":"Error logging in:","service":"employee-service","timestamp":"2024-05-27T11:59:21.351Z"}
+{"employee":{"domain":"React js","emp_id":8,"emp_name":"praveen123","password":"1234","position":"Frontend Developer"},"level":"info","message":"Employee created successfully","service":"employee-service","timestamp":"2024-05-27T12:09:58.193Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-05-27T12:11:11.762Z"}
+{"employee":{"domain":"React js","emp_id":7,"emp_name":"praveen","password":"1234","position":"Frontend Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-05-27T12:16:13.108Z"}
+{"employee":{"domain":"React js","emp_id":7,"emp_name":"praveen","password":"1234","position":"Frontend Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-05-28T03:00:47.853Z"}
+{"employee":{"domain":"React js","emp_id":7,"emp_name":"praveen","password":"1234","position":"Frontend Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-05-28T03:16:23.061Z"}
+{"employee":{"domain":"React js","emp_id":7,"emp_name":"praveen","password":"1234","position":"Frontend Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-05-28T03:33:37.580Z"}
+{"employee":{"domain":"React js","emp_id":7,"emp_name":"praveen","password":"1234","position":"Frontend Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-05-28T05:02:42.845Z"}
+{"employee":{"domain":"React js","emp_id":7,"emp_name":"praveen","password":"1234","position":"Frontend Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-05-28T05:03:00.346Z"}
+{"employee":{"domain":"React js","emp_id":7,"emp_name":"praveen","password":"1234","position":"Frontend Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-05-28T05:04:28.658Z"}
+{"employee":{"domain":"React js","emp_id":7,"emp_name":"praveen","password":"1234","position":"Frontend Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-05-28T06:33:31.018Z"}
+{"employee":{"domain":"React js","emp_id":7,"emp_name":"praveen","password":"1234","position":"Frontend Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-05-28T06:39:38.690Z"}
+{"employee":{"domain":"React js","emp_id":7,"emp_name":"praveen","password":"1234","position":"Frontend Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-05-28T06:40:55.088Z"}
+{"employee":{"domain":"React js","emp_id":7,"emp_name":"praveen","password":"1234","position":"Frontend Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-05-28T06:46:08.234Z"}
+{"employee":{"domain":"React js","emp_id":7,"emp_name":"praveen","password":"1234","position":"Frontend Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-05-28T06:47:53.421Z"}
+{"employee":{"domain":"React js","emp_id":7,"emp_name":"praveen","password":"1234","position":"Frontend Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-05-28T06:49:00.813Z"}
+{"employee":{"domain":"React js","emp_id":7,"emp_name":"praveen","password":"1234","position":"Frontend Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-05-28T06:50:18.801Z"}
+{"employee":{"domain":"React js","emp_id":7,"emp_name":"praveen","password":"1234","position":"Frontend Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-05-28T06:50:59.642Z"}
+{"employee":{"domain":"React js","emp_id":7,"emp_name":"praveen","password":"1234","position":"Frontend Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-05-28T06:51:15.693Z"}
+{"employee":{"domain":"React js","emp_id":7,"emp_name":"praveen","password":"1234","position":"Frontend Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-05-28T08:25:58.643Z"}
+{"employee":{"domain":"React js","emp_id":7,"emp_name":"praveen","password":"1234","position":"Frontend Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-05-28T08:44:11.437Z"}
+{"employee":{"domain":"React js","emp_id":7,"emp_name":"praveen","password":"1234","position":"Frontend Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-05-28T08:50:03.126Z"}
+{"employee":{"domain":"React js","emp_id":7,"emp_name":"praveen","password":"1234","position":"Frontend Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-05-28T08:50:45.509Z"}
+{"employee":{"domain":"React js","emp_id":7,"emp_name":"praveen","password":"1234","position":"Frontend Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-05-28T08:51:11.585Z"}
+{"employee":{"domain":"React js","emp_id":7,"emp_name":"praveen","password":"1234","position":"Frontend Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-05-28T08:52:42.858Z"}
+{"employee":{"domain":"React js","emp_id":7,"emp_name":"praveen","password":"1234","position":"Frontend Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-05-28T08:57:32.412Z"}
+{"employee":{"domain":"React js","emp_id":7,"emp_name":"praveen","password":"1234","position":"Frontend Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-05-28T08:59:54.165Z"}
+{"employee":{"domain":"React js","emp_id":7,"emp_name":"praveen","password":"1234","position":"Frontend Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-05-28T09:13:11.531Z"}
+{"employee":{"domain":"React js","emp_id":7,"emp_name":"praveen","password":"1234","position":"Frontend Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-05-28T09:26:45.052Z"}
+{"employee":{"domain":"React js","emp_id":7,"emp_name":"praveen","password":"1234","position":"Frontend Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-05-28T09:36:14.609Z"}
+{"employee":{"domain":"React js","emp_id":7,"emp_name":"praveen","password":"1234","position":"Frontend Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-05-28T10:10:15.423Z"}
+{"employee":{"domain":"React js","emp_id":7,"emp_name":"praveen","password":"1234","position":"Frontend Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-05-28T10:13:27.991Z"}
+{"employee":{"domain":"React js","emp_id":7,"emp_name":"praveen","password":"1234","position":"Frontend Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-05-28T11:17:57.878Z"}
+{"employee":{"domain":"React js","emp_id":7,"emp_name":"praveen","password":"1234","position":"Frontend Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-05-28T11:19:07.817Z"}
+{"employee":{"domain":"React js","emp_id":7,"emp_name":"praveen","password":"1234","position":"Frontend Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-05-28T11:27:04.575Z"}
+{"employee":{"domain":"React js","emp_id":7,"emp_name":"praveen","password":"1234","position":"Frontend Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-05-29T05:52:50.539Z"}
+{"employee":{"domain":"React js","emp_id":7,"emp_name":"praveen","password":"1234","position":"Frontend Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-05-29T06:33:38.412Z"}
+{"employee":{"domain":"React js","emp_id":7,"emp_name":"praveen","password":"1234","position":"Frontend Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-05-29T06:53:33.269Z"}
+{"level":"error","message":"Employee not found","service":"employee-service","timestamp":"2024-05-30T05:18:56.820Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-05-30T05:20:42.602Z"}
+{"employee":{"domain":"java(java8)","emp_id":1,"emp_name":"prasanth","password":"1234","position":"software Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-05-30T05:21:13.160Z"}
+{"employee":{"domain":"java(java8)","emp_id":1,"emp_name":"prasanth","password":"1234","position":"software Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-05-30T05:23:28.433Z"}
+{"level":"error","message":"Employee not found","service":"employee-service","timestamp":"2024-05-30T05:23:42.660Z"}
+{"employee":{"domain":"java(java8)","emp_id":1,"emp_name":"prasanth","password":"1234","position":"software Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-05-30T05:24:02.481Z"}
+{"employee":{"domain":"java(java8)","emp_id":1,"emp_name":"prasanth","password":"1234","position":"software Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-05-30T05:34:33.714Z"}
+{"employee":{"domain":"java(java8)","emp_id":1,"emp_name":"prasanth","password":"1234","position":"software Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-05-30T05:39:51.532Z"}
+{"employee":{"domain":"java(java8)","emp_id":1,"emp_name":"prasanth","password":"1234","position":"software Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-05-30T05:42:30.491Z"}
+{"employee":{"domain":"java(java8)","emp_id":1,"emp_name":"prasanth","password":"1234","position":"software Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-05-30T05:50:35.824Z"}
+{"employee":{"domain":"java(java8)","emp_id":1,"emp_name":"prasanth","password":"1234","position":"software Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-05-30T06:02:54.869Z"}
+{"error":{},"level":"error","message":"Error logging in:","service":"employee-service","timestamp":"2024-06-13T09:13:03.016Z"}
+{"error":{},"level":"error","message":"Error logging in:","service":"employee-service","timestamp":"2024-06-13T09:13:05.291Z"}
+{"level":"error","message":"Employee not found","service":"employee-service","timestamp":"2024-06-13T09:58:11.847Z"}
+{"level":"error","message":"Employee not found","service":"employee-service","timestamp":"2024-06-13T09:58:13.067Z"}
+{"employee":{"domain":"React js","emp_id":8,"emp_name":"praveen123","password":"1234","position":"Frontend Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-06-13T10:01:05.004Z"}
+{"employee":{"domain":"React js","emp_id":8,"emp_name":"praveen123","password":"1234","position":"Frontend Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-06-13T10:01:07.765Z"}
+{"employee":{"domain":"React js","emp_id":8,"emp_name":"praveen123","password":"1234","position":"Frontend Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-06-13T10:01:08.395Z"}
+{"employee":{"domain":"React js","emp_id":8,"emp_name":"praveen123","password":"1234","position":"Frontend Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-06-13T10:01:08.507Z"}
+{"employee":{"domain":"React js","emp_id":8,"emp_name":"praveen123","password":"1234","position":"Frontend Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-06-13T10:01:08.764Z"}
+{"employee":{"domain":"React js","emp_id":8,"emp_name":"praveen123","password":"1234","position":"Frontend Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-06-13T10:01:08.947Z"}
+{"employee":{"domain":"React js","emp_id":8,"emp_name":"praveen123","password":"1234","position":"Frontend Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-06-13T10:27:28.417Z"}
+{"employee":{"domain":"React js","emp_id":8,"emp_name":"praveen123","password":"1234","position":"Frontend Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-06-13T12:02:47.468Z"}
+{"employee":{"domain":"React js","emp_id":8,"emp_name":"praveen123","password":"1234","position":"Frontend Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-06-13T12:11:09.954Z"}
+{"employee":{"domain":"React js","emp_id":8,"emp_name":"praveen123","password":"1234","position":"Frontend Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-06-13T13:26:02.586Z"}
+{"employee":{"domain":"java(java8)","emp_id":1,"emp_name":"prasanth","password":"1234","position":"software Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-06-18T06:47:25.775Z"}
+{"employee":{"domain":"java(java8)","emp_id":1,"emp_name":"prasanth","password":"1234","position":"software Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-06-18T09:53:27.241Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T03:20:28.032Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T05:03:51.868Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T05:03:51.883Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T05:06:32.655Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T05:06:32.665Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T05:06:48.928Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T05:08:19.789Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T05:08:19.801Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T05:08:25.002Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T05:08:25.008Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T05:08:31.494Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T05:08:31.499Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T05:11:25.209Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T05:11:25.230Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T05:22:52.892Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T05:22:52.918Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T05:33:27.493Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T05:33:27.504Z"}
+{"employee":{"domain":"java(java8)","emp_id":1,"emp_name":"prasanth","password":"1234","position":"software Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-06-19T05:35:58.077Z"}
+{"employee":{"domain":"java(java8)","emp_id":1,"emp_name":"prasanth","password":"1234","position":"software Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-06-19T05:40:08.308Z"}
+{"employee":{"domain":"java(java8)","emp_id":1,"emp_name":"prasanth","password":"1234","position":"software Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-06-19T05:41:31.821Z"}
+{"employee":{"domain":"java(java8)","emp_id":1,"emp_name":"prasanth","password":"1234","position":"software Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-06-19T05:50:30.663Z"}
+{"employee":{"domain":"java(java8)","emp_id":1,"emp_name":"prasanth","password":"1234","position":"software Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-06-19T05:50:45.621Z"}
+{"employee":{"domain":"java(java8)","emp_id":1,"emp_name":"prasanth","password":"1234","position":"software Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-06-19T05:51:41.636Z"}
+{"employee":{"domain":"java(java8)","emp_id":1,"emp_name":"prasanth","password":"1234","position":"software Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-06-19T05:55:03.756Z"}
+{"employee":{"domain":"java(java8)","emp_id":1,"emp_name":"prasanth","password":"1234","position":"software Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-06-19T06:00:40.285Z"}
+{"employee":{"domain":"java(java8)","emp_id":1,"emp_name":"prasanth","password":"1234","position":"software Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-06-19T06:06:21.401Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T06:07:42.508Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T06:07:42.526Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T06:08:44.464Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T06:08:44.472Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T06:09:48.779Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T06:09:48.786Z"}
+{"employee":{"domain":"java(java8)","emp_id":1,"emp_name":"prasanth","password":"1234","position":"software Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-06-19T06:18:28.417Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T06:18:40.241Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T06:18:40.251Z"}
+{"employee":{"domain":"java(java8)","emp_id":1,"emp_name":"prasanth","password":"1234","position":"software Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-06-19T06:25:33.732Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T06:27:05.796Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T06:27:05.815Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T06:27:32.932Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T06:27:32.937Z"}
+{"employee":{"domain":"java(java8)","emp_id":1,"emp_name":"prasanth","password":"1234","position":"software Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-06-19T06:29:58.780Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T06:30:07.936Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T06:30:07.946Z"}
+{"employee":{"domain":"java(java8)","emp_id":1,"emp_name":"prasanth","password":"1234","position":"software Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-06-19T06:30:53.926Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T06:31:01.602Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T06:31:01.612Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T06:37:46.117Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T06:37:46.129Z"}
+{"employee":{"domain":"java(java8)","emp_id":1,"emp_name":"prasanth","password":"1234","position":"software Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-06-19T07:18:37.108Z"}
+{"employee":{"domain":"java","emp_id":9,"emp_name":"sasi","password":"1234","position":"tester"},"level":"info","message":"Employee created successfully","service":"employee-service","timestamp":"2024-06-19T07:23:48.510Z"}
+{"employee":{"domain":"java","emp_id":10,"emp_name":"vinod","password":"1234","position":"tester"},"level":"info","message":"Employee created successfully","service":"employee-service","timestamp":"2024-06-19T07:24:11.271Z"}
+{"employee":{"domain":"java","emp_id":11,"emp_name":"ramya","password":"1234","position":"tester"},"level":"info","message":"Employee created successfully","service":"employee-service","timestamp":"2024-06-19T07:25:22.058Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T07:25:48.770Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T07:25:48.780Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T07:28:07.125Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T07:28:07.133Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T07:28:34.115Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T07:28:34.121Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T07:29:46.203Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T07:29:46.211Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T07:30:00.252Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T07:30:00.259Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T08:13:10.445Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T08:13:10.555Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T08:13:16.563Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T08:13:16.570Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T08:18:49.531Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T08:18:49.535Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T08:20:19.841Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T08:20:19.848Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T08:20:25.392Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T08:20:25.435Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T08:20:36.662Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T08:20:36.666Z"}
+{"employee":{"domain":"java(java8)","emp_id":1,"emp_name":"prasanth","password":"1234","position":"software Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-06-19T08:37:56.994Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T08:42:37.643Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T08:42:37.788Z"}
+{"employee":{"domain":"java(java8)","emp_id":1,"emp_name":"prasanth","password":"1234","position":"software Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-06-19T08:43:11.170Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T08:44:09.281Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T08:44:09.286Z"}
+{"employee":{"domain":"java(java8)","emp_id":1,"emp_name":"prasanth","password":"1234","position":"software Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-06-19T09:05:16.785Z"}
+{"employee":{"domain":"java(java8)","emp_id":1,"emp_name":"prasanth","password":"1234","position":"software Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-06-19T09:13:32.110Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T09:13:55.633Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T09:13:55.641Z"}
+{"employee":{"domain":"java(java8)","emp_id":1,"emp_name":"prasanth","password":"1234","position":"software Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-06-19T09:14:51.818Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T09:16:33.922Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T09:16:33.938Z"}
+{"employee":{"domain":"java(java8)","emp_id":1,"emp_name":"prasanth","password":"1234","position":"software Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-06-19T09:45:57.350Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T09:46:09.561Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T09:46:09.582Z"}
+{"employee":{"domain":"java(java8)","emp_id":1,"emp_name":"prasanth","password":"1234","position":"software Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-06-19T09:59:39.406Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T09:59:45.295Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T09:59:45.311Z"}
+{"error":{"name":"SequelizeDatabaseError","original":{"code":"ER_BAD_FIELD_ERROR","errno":1054,"sql":"SELECT `emp_id`, `emp_name`, `position`, `domain`, `password` FROM `employee_table` AS `employee`;","sqlMessage":"Unknown column 'domain' in 'field list'","sqlState":"42S22"},"parameters":{},"parent":{"code":"ER_BAD_FIELD_ERROR","errno":1054,"sql":"SELECT `emp_id`, `emp_name`, `position`, `domain`, `password` FROM `employee_table` AS `employee`;","sqlMessage":"Unknown column 'domain' in 'field list'","sqlState":"42S22"},"sql":"SELECT `emp_id`, `emp_name`, `position`, `domain`, `password` FROM `employee_table` AS `employee`;"},"level":"error","message":"Error retrieving data","service":"employee-service","timestamp":"2024-06-19T10:10:47.618Z"}
+{"error":{"name":"SequelizeDatabaseError","original":{"code":"ER_BAD_FIELD_ERROR","errno":1054,"sql":"SELECT `emp_id`, `emp_name`, `position`, `domain`, `password` FROM `employee_table` AS `employee`;","sqlMessage":"Unknown column 'domain' in 'field list'","sqlState":"42S22"},"parameters":{},"parent":{"code":"ER_BAD_FIELD_ERROR","errno":1054,"sql":"SELECT `emp_id`, `emp_name`, `position`, `domain`, `password` FROM `employee_table` AS `employee`;","sqlMessage":"Unknown column 'domain' in 'field list'","sqlState":"42S22"},"sql":"SELECT `emp_id`, `emp_name`, `position`, `domain`, `password` FROM `employee_table` AS `employee`;"},"level":"error","message":"Error retrieving data","service":"employee-service","timestamp":"2024-06-19T10:10:47.759Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T10:11:53.135Z"}
+{"employee":{"Blood_grop":"B-","emp_id":1,"emp_name":"prasanth","password":"1234","position":"software Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-06-19T10:14:20.364Z"}
+{"employee":{"Blood_grop":"B-","emp_id":1,"emp_name":"prasanth","password":"1234","position":"software Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-06-19T10:14:37.091Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T10:16:21.073Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T10:16:21.082Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T10:16:57.318Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T10:16:57.327Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T10:17:22.632Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T10:17:22.639Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T10:17:31.251Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T10:17:31.260Z"}
+{"employee":{"Blood_grop":"B-","emp_id":1,"emp_name":"prasanth","password":"1234","phone_number":"9719844120","position":"software Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-06-19T10:23:02.363Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T10:23:08.952Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T10:25:47.828Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T10:25:47.838Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T11:17:18.897Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T11:17:18.927Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T11:19:06.499Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T11:19:06.507Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T13:05:59.420Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T13:05:59.473Z"}
+{"employee":{"Blood_grop":"B-","emp_id":1,"emp_name":"prasanth","password":"1234","phone_number":"9719844120","position":"software Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-06-19T13:29:00.564Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T13:29:07.383Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T13:29:07.451Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T13:29:33.622Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T13:29:33.627Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T13:29:43.503Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T13:29:43.513Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T13:30:02.983Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-19T13:30:02.988Z"}
+{"employee":{"Blood_grop":"B-","emp_id":1,"emp_name":"prasanth","password":"1234","phone_number":"9719844120","position":"software Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-06-20T04:51:01.090Z"}
+{"employee":{"Blood_grop":"B-","emp_id":1,"emp_name":"prasanth","password":"1234","phone_number":"9719844120","position":"software Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-06-20T04:51:03.945Z"}
+{"employee":{"Blood_grop":"B-","emp_id":1,"emp_name":"prasanth","password":"1234","phone_number":"9719844120","position":"software Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-06-20T05:06:27.274Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-20T05:06:43.388Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-20T05:06:43.416Z"}
+{"employee":{"Blood_grop":"B-","emp_id":1,"emp_name":"prasanth","password":"1234","phone_number":"9719844120","position":"software Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-06-20T05:16:25.294Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-20T05:21:11.673Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-20T05:21:11.702Z"}
+{"employee":{"Blood_grop":"B-","emp_id":1,"emp_name":"prasanth","password":"1234","phone_number":"9719844120","position":"software Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-06-20T05:52:01.074Z"}
+{"employee":{"Blood_grop":"B-","emp_id":1,"emp_name":"prasanth","password":"1234","phone_number":"9719844120","position":"software Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-06-21T05:26:03.779Z"}
+{"employee":{"Blood_grop":"B-","emp_id":1,"emp_name":"prasanth","password":"1234","phone_number":"9719844120","position":"software Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-06-21T05:26:08.238Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-21T05:26:29.689Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-21T05:26:29.700Z"}
+{"employee":{"Blood_grop":"B-","emp_id":1,"emp_name":"prasanth","password":"1234","phone_number":"9719844120","position":"software Developer"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-06-21T07:20:30.150Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-21T07:20:36.148Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-21T07:20:36.168Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-21T07:23:41.918Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-21T07:23:41.935Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-21T07:48:39.720Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-21T07:48:39.767Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-21T08:29:59.475Z"}
+{"level":"info","message":"updateEmployee: Employee with empid 1 updated successfully","service":"employee-service","timestamp":"2024-06-21T08:36:24.750Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-21T08:36:37.553Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-21T08:36:37.573Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-21T08:46:33.452Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-21T08:46:33.469Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-21T09:00:11.525Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-21T09:00:11.563Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-21T09:40:50.745Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-21T09:40:50.811Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-21T09:43:01.511Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-21T09:43:01.522Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-21T09:44:03.163Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-21T09:44:03.175Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-21T09:46:47.486Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-21T09:46:47.523Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-21T09:55:40.762Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-21T09:55:40.777Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-21T09:57:02.036Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-21T09:57:02.044Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-21T09:57:12.845Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-21T09:57:12.854Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-21T09:57:57.825Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-21T09:57:57.841Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-21T10:21:16.792Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-21T10:21:17.053Z"}
+{"employee":{"Blood_grop":"B-","emp_id":1,"emp_name":"prasanth","password":"1234","phone_number":"9719844120","position":"HR"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-06-21T10:23:06.573Z"}
+{"employee":{"Blood_grop":"B-","emp_id":1,"emp_name":"prasanth","password":"1234","phone_number":"9719844120","position":"HR"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-06-21T10:23:11.022Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-21T10:23:19.633Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-21T10:23:19.646Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-25T12:44:04.370Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-25T12:45:54.220Z"}
+{"employee":{"Blood_grop":"B-","emp_id":1,"emp_name":"prasanth","password":"1234","phone_number":"9719844120","position":"HR"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-06-27T08:33:46.610Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-27T08:38:25.282Z"}
+{"employee":{"Blood_grop":"B-","emp_id":1,"emp_name":"prasanth","password":"1234","phone_number":"9719844120","position":"HR"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-06-27T10:27:28.985Z"}
+{"employee":{"Blood_grop":"B-","emp_id":1,"emp_name":"prasanth","password":"1234","phone_number":"9719844120","position":"HR"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-06-27T10:35:57.268Z"}
+{"employee":{"Blood_grop":"B-","emp_id":1,"emp_name":"prasanth","password":"1234","phone_number":"9719844120","position":"HR"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-06-27T10:41:57.100Z"}
+{"employee":{"Blood_grop":"B-","emp_id":1,"emp_name":"prasanth","password":"1234","phone_number":"9719844120","position":"HR"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-06-27T10:50:26.947Z"}
+{"employee":{"Blood_grop":"B-","emp_id":1,"emp_name":"prasanth","password":"1234","phone_number":"9719844120","position":"HR"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-06-27T11:08:54.574Z"}
+{"employee":{"Blood_grop":"B-","emp_id":1,"emp_name":"prasanth","password":"1234","phone_number":"9719844120","position":"HR"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-06-27T11:08:55.967Z"}
+{"employee":{"Blood_grop":"B-","emp_id":1,"emp_name":"prasanth","password":"1234","phone_number":"9719844120","position":"HR"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-06-27T11:11:07.625Z"}
+{"employee":{"Blood_grop":"B-","emp_id":1,"emp_name":"prasanth","password":"1234","phone_number":"9719844120","position":"HR"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-06-27T11:11:07.634Z"}
+{"employee":{"Blood_grop":"B-","emp_id":1,"emp_name":"prasanth","password":"1234","phone_number":"9719844120","position":"HR"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-06-27T11:13:56.733Z"}
+{"employee":{"Blood_grop":"B-","emp_id":1,"emp_name":"prasanth","password":"1234","phone_number":"9719844120","position":"HR"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-06-27T11:54:26.340Z"}
+{"employee":{"Blood_grop":"B-","emp_id":1,"emp_name":"prasanth","password":"1234","phone_number":"9719844120","position":"HR"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-06-27T11:57:33.984Z"}
+{"employee":{"Blood_grop":"B-","emp_id":1,"emp_name":"prasanth","password":"1234","phone_number":"9719844120","position":"HR"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-06-27T11:59:40.246Z"}
+{"employee":{"Blood_grop":"B-","emp_id":1,"emp_name":"prasanth","password":"1234","phone_number":"9719844120","position":"HR"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-06-27T12:17:37.965Z"}
+{"employee":{"Blood_grop":"B-","emp_id":1,"emp_name":"prasanth","password":"1234","phone_number":"9719844120","position":"HR"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-06-27T13:14:26.671Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-27T13:17:06.291Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-27T13:20:51.185Z"}
+{"employee":{"Blood_grop":"B-","emp_id":1,"emp_name":"prasanth","password":"1234","phone_number":"9719844120","position":"HR"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-06-27T13:21:20.028Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-27T13:21:27.874Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-27T13:22:56.266Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-27T13:23:01.950Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-27T13:23:53.199Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-27T13:23:53.572Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-27T13:24:31.472Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-27T13:24:31.484Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-27T13:24:35.059Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-27T13:24:37.576Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-27T13:24:52.264Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-27T13:24:52.276Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-27T13:25:25.967Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-27T13:25:27.147Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-27T13:25:27.157Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-27T13:25:28.593Z"}
+{"employee":{"Blood_grop":"B-","emp_id":1,"emp_name":"prasanth","password":"1234","phone_number":"9719844120","position":"HR"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-06-27T13:32:16.970Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-27T13:33:35.524Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-27T13:37:03.688Z"}
+{"error":{},"level":"error","message":"Error creating Employee:","service":"employee-service","timestamp":"2024-06-27T13:37:47.719Z"}
+{"error":{},"level":"error","message":"Error creating Employee:","service":"employee-service","timestamp":"2024-06-27T13:39:04.372Z"}
+{"error":{},"level":"error","message":"Error creating Employee:","service":"employee-service","timestamp":"2024-06-27T13:39:06.418Z"}
+{"error":{},"level":"error","message":"Error creating Employee:","service":"employee-service","timestamp":"2024-06-27T13:40:46.505Z"}
+{"error":{},"level":"error","message":"Error creating Employee:","service":"employee-service","timestamp":"2024-06-27T13:43:23.536Z"}
+{"error":{},"level":"error","message":"Error creating Employee:","service":"employee-service","timestamp":"2024-06-27T13:45:12.251Z"}
+{"error":{},"level":"error","message":"Error creating Employee:","service":"employee-service","timestamp":"2024-06-27T13:45:13.902Z"}
+{"error":{},"level":"error","message":"Error creating Employee:","service":"employee-service","timestamp":"2024-06-27T13:45:31.137Z"}
+{"error":{},"level":"error","message":"Error creating Employee:","service":"employee-service","timestamp":"2024-06-27T13:45:32.377Z"}
+{"employee":{"emp_id":12,"emp_name":"sannith","password":"1234","phone_number":"9719844120","position":"Employee"},"level":"info","message":"Employee created successfully","service":"employee-service","timestamp":"2024-06-28T03:14:32.588Z"}
+{"employee":{"blood_group":"B-","emp_id":1,"emp_name":"prasanth","password":"1234","phone_number":"9719844120","position":"HR"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-06-28T03:15:24.358Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-28T03:15:31.597Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-28T03:24:48.877Z"}
+{"employee":{"blood_group":"B-","emp_id":1,"emp_name":"prasanth","password":"1234","phone_number":"9719844120","position":"HR"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-06-28T03:44:29.187Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-28T03:45:59.118Z"}
+{"employee":{"emp_id":13,"emp_name":"aditya","password":"1234","phone_number":"787894561","position":"content writer"},"level":"info","message":"Employee created successfully","service":"employee-service","timestamp":"2024-06-28T03:48:08.880Z"}
+{"employee":{"blood_group":"o+","emp_id":14,"emp_name":"mahesh","password":"1234","phone_number":"78451234","position":"Software"},"level":"info","message":"Employee created successfully","service":"employee-service","timestamp":"2024-06-28T03:54:17.314Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-28T03:54:36.784Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-28T03:55:12.939Z"}
+{"employee":{"blood_group":"B-","emp_id":1,"emp_name":"prasanth","password":"1234","phone_number":"9719844120","position":"HR"},"level":"info","message":"Login successful","service":"employee-service","timestamp":"2024-06-28T06:06:54.740Z"}
+{"level":"info","message":"All Employees Details retrieved successfully","service":"employee-service","timestamp":"2024-06-28T06:07:00.325Z"}
+{"error":{"name":"SequelizeConnectionRefusedError","original":{"code":"ECONNREFUSED","fatal":true},"parent":{"code":"ECONNREFUSED","fatal":true}},"level":"error","message":"Error logging in:","service":"employee-service","timestamp":"2024-06-28T08:57:33.970Z"}
+{"level":"info","message":"All skillsdata Details retrieved successfully","service":"employee-service","timestamp":"2024-07-16T02:12:40.362Z"}
+{"error":{},"level":"error","message":"updateSkills: Error updating Skills","service":"employee-service","timestamp":"2024-07-16T02:34:04.119Z"}
+{"error":{},"level":"error","message":"updateSkills: Error updating Skills","service":"employee-service","timestamp":"2024-07-16T02:34:47.685Z"}
+{"error":{},"level":"error","message":"updateSkills: Error updating Skills","service":"employee-service","timestamp":"2024-07-16T02:36:11.464Z"}
+{"error":{},"level":"error","message":"updateSkills: Error updating Skills","service":"employee-service","timestamp":"2024-07-16T02:36:13.754Z"}
+{"error":{},"level":"error","message":"updateSkills: Error updating Skills","service":"employee-service","timestamp":"2024-07-16T02:38:46.931Z"}
+{"level":"info","message":"updateSkills: Skill with empid 3 updated successfully","service":"employee-service","timestamp":"2024-07-16T02:40:49.093Z"}
+{"level":"info","message":"All skillsdata Details retrieved successfully","service":"employee-service","timestamp":"2024-07-16T09:27:27.302Z"}
+{"level":"info","message":"updateSkills: Skill with empid 3 updated successfully","service":"employee-service","timestamp":"2024-07-16T09:41:00.974Z"}
+{"level":"info","message":"All skillsdata Details retrieved successfully","service":"employee-service","timestamp":"2024-07-16T10:08:13.210Z"}
+{"level":"info","message":"All skillsdata Details retrieved successfully","service":"employee-service","timestamp":"2024-07-16T10:08:52.328Z"}
+{"level":"info","message":"All skillsdata Details retrieved successfully","service":"employee-service","timestamp":"2024-07-16T10:09:38.582Z"}
+{"level":"info","message":"All skillsdata Details retrieved successfully","service":"employee-service","timestamp":"2024-07-16T10:09:43.737Z"}
+{"level":"info","message":"All skillsdata Details retrieved successfully","service":"employee-service","timestamp":"2024-07-16T10:41:39.081Z"}
+{"level":"info","message":"All skillsdata Details retrieved successfully","service":"employee-service","timestamp":"2024-07-16T10:42:14.401Z"}
+{"level":"info","message":"All skillsdata Details retrieved successfully","service":"employee-service","timestamp":"2024-07-16T11:24:08.316Z"}
+{"level":"info","message":"All skillsdata Details retrieved successfully","service":"employee-service","timestamp":"2024-07-16T11:37:11.144Z"}
+{"level":"info","message":"All skillsdata Details retrieved successfully","service":"employee-service","timestamp":"2024-07-16T11:37:36.277Z"}
+{"level":"info","message":"All skillsdata Details retrieved successfully","service":"employee-service","timestamp":"2024-07-16T11:39:03.768Z"}
+{"level":"info","message":"All skillsdata Details retrieved successfully","service":"employee-service","timestamp":"2024-07-16T11:39:52.892Z"}
+{"level":"info","message":"All skillsdata Details retrieved successfully","service":"employee-service","timestamp":"2024-07-16T11:43:37.432Z"}
+{"level":"info","message":"All skillsdata Details retrieved successfully","service":"employee-service","timestamp":"2024-07-16T11:44:54.240Z"}
+{"level":"info","message":"All skillsdata Details retrieved successfully","service":"employee-service","timestamp":"2024-07-16T11:46:17.431Z"}
+{"level":"info","message":"All skillsdata Details retrieved successfully","service":"employee-service","timestamp":"2024-07-16T11:47:08.228Z"}
+{"level":"info","message":"All skillsdata Details retrieved successfully","service":"employee-service","timestamp":"2024-07-16T11:47:46.979Z"}
+{"level":"info","message":"All skillsdata Details retrieved successfully","service":"employee-service","timestamp":"2024-07-16T11:48:54.635Z"}
+{"level":"info","message":"All skillsdata Details retrieved successfully","service":"employee-service","timestamp":"2024-07-16T11:56:59.700Z"}
+{"level":"info","message":"All skillsdata Details retrieved successfully","service":"employee-service","timestamp":"2024-07-16T11:59:17.874Z"}
+{"level":"info","message":"All skillsdata Details retrieved successfully","service":"employee-service","timestamp":"2024-07-16T11:59:47.113Z"}
+{"level":"info","message":"All skillsdata Details retrieved successfully","service":"employee-service","timestamp":"2024-07-16T12:03:30.939Z"}
+{"level":"info","message":"All skillsdata Details retrieved successfully","service":"employee-service","timestamp":"2024-07-16T12:35:09.344Z"}
+{"level":"info","message":"All skillsdata Details retrieved successfully","service":"employee-service","timestamp":"2024-07-16T12:36:18.402Z"}
+{"level":"info","message":"All skillsdata Details retrieved successfully","service":"employee-service","timestamp":"2024-07-16T12:38:30.660Z"}
+{"level":"info","message":"All skillsdata Details retrieved successfully","service":"employee-service","timestamp":"2024-07-16T12:40:08.059Z"}
+{"level":"info","message":"All skillsdata Details retrieved successfully","service":"employee-service","timestamp":"2024-07-16T12:50:16.419Z"}
+{"level":"info","message":"updateSkills: Skill with empid 3 updated successfully","service":"employee-service","timestamp":"2024-07-16T12:50:42.417Z"}
+{"level":"info","message":"All skillsdata Details retrieved successfully","service":"employee-service","timestamp":"2024-07-16T12:53:44.825Z"}
+{"level":"info","message":"All skillsdata Details retrieved successfully","service":"employee-service","timestamp":"2024-07-16T12:53:50.603Z"}
+{"level":"info","message":"All skillsdata Details retrieved successfully","service":"employee-service","timestamp":"2024-07-16T12:54:23.744Z"}
+{"level":"info","message":"All skillsdata Details retrieved successfully","service":"employee-service","timestamp":"2024-07-16T12:54:26.684Z"}
+{"level":"info","message":"All skillsdata Details retrieved successfully","service":"employee-service","timestamp":"2024-07-16T12:56:47.466Z"}
+{"level":"info","message":"All skillsdata Details retrieved successfully","service":"employee-service","timestamp":"2024-07-17T05:35:31.382Z"}
+{"level":"info","message":"All skillsdata Details retrieved successfully","service":"employee-service","timestamp":"2024-07-17T05:35:44.379Z"}
+{"level":"info","message":"All skillsdata Details retrieved successfully","service":"employee-service","timestamp":"2024-07-17T05:39:29.288Z"}
+{"level":"info","message":"All skillsdata Details retrieved successfully","service":"employee-service","timestamp":"2024-07-17T05:41:22.084Z"}
+{"level":"info","message":"All skillsdata Details retrieved successfully","service":"employee-service","timestamp":"2024-07-17T09:24:59.245Z"}
+{"level":"info","message":"All skillsdata Details retrieved successfully","service":"employee-service","timestamp":"2024-07-17T09:25:13.435Z"}

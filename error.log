@@ -1,0 +1,46 @@
+{"error":{},"level":"error","message":"Error creating Employee:","service":"employee-service","timestamp":"2024-05-27T08:40:20.741Z"}
+{"error":{"name":"SequelizeDatabaseError","original":{"code":"ER_DATA_TOO_LONG","errno":1406,"parameters":["sannith","Frontend Developer","React js","$2b$10$MIPrHgsEmxUK8k5k8EBqFulkIidoOyHpCNaYaRn7cm58LbYgfDxAe"],"sql":"INSERT INTO `employee_table` (`emp_id`,`emp_name`,`position`,`domain`,`password`) VALUES (DEFAULT,?,?,?,?);","sqlMessage":"Data too long for column 'password' at row 1","sqlState":"22001"},"parameters":["sannith","Frontend Developer","React js","$2b$10$MIPrHgsEmxUK8k5k8EBqFulkIidoOyHpCNaYaRn7cm58LbYgfDxAe"],"parent":{"code":"ER_DATA_TOO_LONG","errno":1406,"parameters":["sannith","Frontend Developer","React js","$2b$10$MIPrHgsEmxUK8k5k8EBqFulkIidoOyHpCNaYaRn7cm58LbYgfDxAe"],"sql":"INSERT INTO `employee_table` (`emp_id`,`emp_name`,`position`,`domain`,`password`) VALUES (DEFAULT,?,?,?,?);","sqlMessage":"Data too long for column 'password' at row 1","sqlState":"22001"},"sql":"INSERT INTO `employee_table` (`emp_id`,`emp_name`,`position`,`domain`,`password`) VALUES (DEFAULT,?,?,?,?);"},"level":"error","message":"Error creating Employee:","service":"employee-service","timestamp":"2024-05-27T10:31:02.303Z"}
+{"emp_name":"sannith","level":"error","message":"Invalid password","service":"employee-service","timestamp":"2024-05-27T10:38:13.480Z"}
+{"emp_name":"sannith","level":"error","message":"Invalid password","service":"employee-service","timestamp":"2024-05-27T10:38:33.101Z"}
+{"emp_name":"sannith","level":"error","message":"Invalid password","service":"employee-service","timestamp":"2024-05-27T10:38:35.126Z"}
+{"emp_name":"raju","level":"error","message":"Invalid password","service":"employee-service","timestamp":"2024-05-27T11:27:37.162Z"}
+{"error":{},"level":"error","message":"Error during login","service":"employee-service","timestamp":"2024-05-27T11:28:28.401Z"}
+{"error":"secretOrPrivateKey must have a value","level":"error","message":"Error during login","service":"employee-service","timestamp":"2024-05-27T11:35:38.004Z"}
+{"error":"secretOrPrivateKey must have a value","level":"error","message":"Error during login","service":"employee-service","timestamp":"2024-05-27T11:35:41.184Z"}
+{"level":"error","message":"JWT secret key is missing","service":"employee-service","timestamp":"2024-05-27T11:41:20.878Z"}
+{"error":"secretOrPrivateKey must have a value","level":"error","message":"Error during login","service":"employee-service","timestamp":"2024-05-27T11:42:10.375Z"}
+{"level":"error","message":"Invalid password","service":"employee-service","timestamp":"2024-05-27T11:46:00.924Z"}
+{"level":"error","message":"Invalid password","service":"employee-service","timestamp":"2024-05-27T11:46:18.695Z"}
+{"level":"error","message":"Invalid password","service":"employee-service","timestamp":"2024-05-27T11:46:25.137Z"}
+{"level":"error","message":"Invalid password","service":"employee-service","timestamp":"2024-05-27T11:46:26.194Z"}
+{"level":"error","message":"Invalid password","service":"employee-service","timestamp":"2024-05-27T11:47:37.404Z"}
+{"level":"error","message":"Invalid password","service":"employee-service","timestamp":"2024-05-27T11:49:22.972Z"}
+{"level":"error","message":"Invalid password","service":"employee-service","timestamp":"2024-05-27T11:50:11.690Z"}
+{"level":"error","message":"Invalid password","service":"employee-service","timestamp":"2024-05-27T11:51:04.971Z"}
+{"level":"error","message":"Invalid password","service":"employee-service","timestamp":"2024-05-27T11:51:56.198Z"}
+{"level":"error","message":"Invalid password","service":"employee-service","timestamp":"2024-05-27T11:55:44.200Z"}
+{"error":{},"level":"error","message":"Error logging in:","service":"employee-service","timestamp":"2024-05-27T11:59:21.351Z"}
+{"error":{"code":"ERR_HTTP_HEADERS_SENT"},"level":"error","message":"Error logging in:","service":"employee-service","timestamp":"2024-05-28T06:46:08.269Z"}
+{"level":"error","message":"Employee not found","service":"employee-service","timestamp":"2024-05-30T05:18:56.820Z"}
+{"level":"error","message":"Employee not found","service":"employee-service","timestamp":"2024-05-30T05:23:42.660Z"}
+{"error":{},"level":"error","message":"Error logging in:","service":"employee-service","timestamp":"2024-06-13T09:13:03.016Z"}
+{"error":{},"level":"error","message":"Error logging in:","service":"employee-service","timestamp":"2024-06-13T09:13:05.291Z"}
+{"level":"error","message":"Employee not found","service":"employee-service","timestamp":"2024-06-13T09:58:11.847Z"}
+{"level":"error","message":"Employee not found","service":"employee-service","timestamp":"2024-06-13T09:58:13.067Z"}
+{"error":{"name":"SequelizeDatabaseError","original":{"code":"ER_BAD_FIELD_ERROR","errno":1054,"sql":"SELECT `emp_id`, `emp_name`, `position`, `domain`, `password` FROM `employee_table` AS `employee`;","sqlMessage":"Unknown column 'domain' in 'field list'","sqlState":"42S22"},"parameters":{},"parent":{"code":"ER_BAD_FIELD_ERROR","errno":1054,"sql":"SELECT `emp_id`, `emp_name`, `position`, `domain`, `password` FROM `employee_table` AS `employee`;","sqlMessage":"Unknown column 'domain' in 'field list'","sqlState":"42S22"},"sql":"SELECT `emp_id`, `emp_name`, `position`, `domain`, `password` FROM `employee_table` AS `employee`;"},"level":"error","message":"Error retrieving data","service":"employee-service","timestamp":"2024-06-19T10:10:47.618Z"}
+{"error":{"name":"SequelizeDatabaseError","original":{"code":"ER_BAD_FIELD_ERROR","errno":1054,"sql":"SELECT `emp_id`, `emp_name`, `position`, `domain`, `password` FROM `employee_table` AS `employee`;","sqlMessage":"Unknown column 'domain' in 'field list'","sqlState":"42S22"},"parameters":{},"parent":{"code":"ER_BAD_FIELD_ERROR","errno":1054,"sql":"SELECT `emp_id`, `emp_name`, `position`, `domain`, `password` FROM `employee_table` AS `employee`;","sqlMessage":"Unknown column 'domain' in 'field list'","sqlState":"42S22"},"sql":"SELECT `emp_id`, `emp_name`, `position`, `domain`, `password` FROM `employee_table` AS `employee`;"},"level":"error","message":"Error retrieving data","service":"employee-service","timestamp":"2024-06-19T10:10:47.759Z"}
+{"error":{},"level":"error","message":"Error creating Employee:","service":"employee-service","timestamp":"2024-06-27T13:37:47.719Z"}
+{"error":{},"level":"error","message":"Error creating Employee:","service":"employee-service","timestamp":"2024-06-27T13:39:04.372Z"}
+{"error":{},"level":"error","message":"Error creating Employee:","service":"employee-service","timestamp":"2024-06-27T13:39:06.418Z"}
+{"error":{},"level":"error","message":"Error creating Employee:","service":"employee-service","timestamp":"2024-06-27T13:40:46.505Z"}
+{"error":{},"level":"error","message":"Error creating Employee:","service":"employee-service","timestamp":"2024-06-27T13:43:23.536Z"}
+{"error":{},"level":"error","message":"Error creating Employee:","service":"employee-service","timestamp":"2024-06-27T13:45:12.251Z"}
+{"error":{},"level":"error","message":"Error creating Employee:","service":"employee-service","timestamp":"2024-06-27T13:45:13.902Z"}
+{"error":{},"level":"error","message":"Error creating Employee:","service":"employee-service","timestamp":"2024-06-27T13:45:31.137Z"}
+{"error":{},"level":"error","message":"Error creating Employee:","service":"employee-service","timestamp":"2024-06-27T13:45:32.377Z"}
+{"error":{"name":"SequelizeConnectionRefusedError","original":{"code":"ECONNREFUSED","fatal":true},"parent":{"code":"ECONNREFUSED","fatal":true}},"level":"error","message":"Error logging in:","service":"employee-service","timestamp":"2024-06-28T08:57:33.970Z"}
+{"error":{},"level":"error","message":"updateSkills: Error updating Skills","service":"employee-service","timestamp":"2024-07-16T02:34:04.119Z"}
+{"error":{},"level":"error","message":"updateSkills: Error updating Skills","service":"employee-service","timestamp":"2024-07-16T02:34:47.685Z"}
+{"error":{},"level":"error","message":"updateSkills: Error updating Skills","service":"employee-service","timestamp":"2024-07-16T02:36:11.464Z"}
+{"error":{},"level":"error","message":"updateSkills: Error updating Skills","service":"employee-service","timestamp":"2024-07-16T02:36:13.754Z"}
+{"error":{},"level":"error","message":"updateSkills: Error updating Skills","service":"employee-service","timestamp":"2024-07-16T02:38:46.931Z"}
